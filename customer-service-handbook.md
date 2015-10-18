@@ -1,0 +1,102 @@
+PROFESSIONAL CUSTOMER SERVICE CASE STUDIES
+========================================================
+author: Ryo, Eng Lian Hu
+date: 2015-10-19
+transition: rotate
+transition-speed: slow
+css: ./theme/default.css
+width: 1200
+height: 800
+
+PREFACE
+========================================================
+
+
+OUR VALUES
+========================================================
+![Our Values](figure/our-values.jpg)
+***
+![Our goal](figure/our-goal.jpg)
+
+Scicom believes in providing **Total Customer Delight**. Our mission is to always help our clients get to know their customers better. We help put more than just a face to a name. 
+
+Monitoring Feedback Ladbrokes Calls
+========================================================
+![feeback-01](figure/fb-01x400.jpg)
+![feeback-02](figure/fb-02x400.jpg)
+
+Telephone Monitoring Feedback Form
+========================================================
+![feeback-03](figure/fb-03x400.jpg)
+![feeback-04](figure/fb-04x400.jpg)
+
+Ladbrokes - 1st Live Chat Monitoring Score Sheet
+========================================================
+![feeback-05](figure/fb-05x400.jpg)
+![feeback-06](figure/fb-06x400.jpg)
+
+1st Live Chat Evaluated Sample
+========================================================
+![feeback-07](figure/fb-07x400.jpg)
+
+Ladbrokes - 2nd Live Chat Monitoring Score Sheet
+========================================================
+![feeback-08](figure/fb-08x400.jpg)
+![feeback-09](figure/fb-09x400.jpg)
+
+2nd Live Chat Evaluated Sample
+========================================================
+![feeback-10](figure/fb-10x400.jpg)
+![feeback-11](figure/fb-11x400.jpg)
+
+Assessment - Monthly Quiz (Jan 2010)
+========================================================
+![feeback-12](figure/fb-12x400.jpg)
+![feeback-13](figure/fb-13x400.jpg)
+
+Assessment - Monthly Quiz (Jan 2010) (continued)
+========================================================
+![feeback-14](figure/fb-14x400.jpg)
+![feeback-15](figure/fb-15x400.jpg)
+
+Assessment - Monthly Quiz (Feb 2010)
+========================================================
+![feeback-16](figure/fb-16x400.jpg)
+![feeback-17](figure/fb-17x400.jpg)
+
+Assessment - Monthly Quiz (Feb 2010) (continued)
+========================================================
+![feeback-18](figure/fb-18x400.jpg)
+![feeback-19](figure/fb-19x400.jpg)
+
+THANK YOU !
+========================================================
+
+
+APENDICES
+========================================================
+Scicom - Certificate of Appreciation to Ladbrokes
+
+![scicom cert](figure/scicom-certx400.jpg)
+***
+Certiftcate of Attended Scicom (MSC) Bhd Workshop
+
+![scicom workshop](figure/scicom-CS-workshopx400.jpg)
+*****
+
+Author :[Ryo®, Eng Lian Hu](http:rpubs.com/englianhu/ryoeng); [source code](https://github.com/englianhu/customer-service-handbook)
+
+Certified Contact Centre Professionals
+========================================================
+![scicom-academy](figure/cc-location.jpg)
+***
+![banner](figure/banner_outsourcing.jpg)
+
+From the graph via [Scicom (MSC) Bhd](http://www.scicom-intl.com/Corporate_GSN.html), we can know **Malaysia** is the top and ideal place for outsourcing contact centre.
+
+References:
+========================================================
+* [Reproducible web documents with R, knitr & Markdown](http://cpsievert.github.io/slides/markdown/#/)
+* [Slidify: Modern, simple presentations written in R Markdown](https://benjaminlmoore.wordpress.com/2014/02/24/slidify-presentations-in-r-markdown/)
+
+
