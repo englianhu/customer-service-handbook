@@ -49,7 +49,7 @@ if(!'BBmisc' %in% installed.packages()){
   install.packages('BBmisc')}
 
 suppressPackageStartupMessages(library('BBmisc'))
-pkgs <- c('devtools','stringr','DT','plyr','dplyr','magrittr','rmarkdown','tidyr','knitr','rmarkdown','lubridate','shiny')
+pkgs <- c('devtools','plyr','dplyr','magrittr','rmarkdown','tidyr','knitr','rmarkdown','lubridate')
 suppressAll(lib(pkgs)); rm(pkgs)
 ```
 
@@ -475,163 +475,70 @@ dfm <- data.frame(c('Providers','','','','','','','','','','','','','Organizatio
 
 
 
-## 4. Case Studies
+## 4. Scripts
+
+
+### 4.1 Greeting scripts
+
+**In-coming call**: `"Welcome to  xxxx, this is Mr/Ms xxx speaking, how can I assist you today?"` (Please salute customer's name 3 times within a call)
+
+**Betting call**: `"Mr/Ms xxxxx, you are placing bet on the match xxx vs xxx, and you are selecting xxx at odds price xxx. Are you confirm?"` (Normally we repeat again what customer said to avoid misunderstand or listen wrongly especial deposit amount, betting selection)
+
+**Deposit call**: `"Mr/Ms xxxxx, could you provide the first 6 and last 4 digits of your debit/credit card for verification purpose?"` (Normally we repeat again what customer said to avoid misunderstand or listen wrongly especial deposit amount, betting selection)
+
+**Withdrawal call**: `"Mr/Ms xxxxx, could you provide below bank details for verification purpose?"` (Bank name, Bank account last 4 digits, Bank holder name, withdrawal amount)
+
+**Put customer on-hold**: `"Mr/Ms xxxxx, please hold-on while I am checking for you now."` (Normally put on-hold less than 3 minutes, and remember inform customer we need to put on-hold somemore minutes if we needed)
+
+**Put customer on-hold**: `"Mr/Ms xxxxx, please hold-on while I am checking for you now."` (Normally put on-hold less than 3 minutes, and remember inform customer we need to put on-hold somemore minutes if we needed)
+
+**End call**: `"Mr/Ms xxxxx, thank you for calling xxx, have a nice day. Good bye"`
+
+
+
+### 4.2 Add-hoc
+
+Do not promise anything that we are not sure. For any issue that we cannot solve within the call, we need to create a case and escalate for getting solution. What we can promise is try to looking for other solution or escalate the case to department incharge if that has over our authority. For any urgent case that we need to call-back, please inform customer that we will call back after 20 or 30 minutes no matter we have found the solution unless customer know the progress of the case. For some non-urgent cases might advice customer feel free to call back to check the case status during our working hours.
+
+
+### 4.3 Improving the customer service that company provides
+
+Let say your company faced some rumours or scandals which harmed to reputation and goodwill, it is possible for you to regain the ground that you have lost with dissatisfied customers. This is not only through apologizing and reconciling with the people that have made comments on the insectnet website but through improving your day to day practices.
+
+Remember that the survival of a company especially new established or small company relies on having satisfied customers. Without them there will be no money coming in and not enough money to keep it a going concern.
+
+
+## 5. Case Studies
 
 Here are some [excerpts](http://rpubs.com/englianhu/customer-service-slideshow) when I worked in [Scicom (MSC) Bhd](http://www.scicom-intl.com/). Some are good but many show that you could be serve customers better.
-
-```{r echo=FALSE}
-renderUI
-```
-
-## 5. Improving the customer service that IFTA provides
-
-It is possible for you to regain the ground that you have lost with dissatisfied customers. This is not only through apologizing and reconciling with the people that have made comments on the insectnet website but through improving your day to day practices.
-
-Remember that the survival of IFTA relies on having satisfied customers. Without them there will be no money coming in and not enough money to keep it a going concern.
-
-
-### 5.1 Insect and butterfly grading
-
-The correct grading of butterflies and other insects is very important and will make or break your reputation with your customers.
-
-If customers receive an order of A1 specimens from you that they think are actually A2 they will not trust the service which you provide.
-
-You must be very careful when grading insects and if you are not sure if a specimen is A1 then just make it an A2. That way when a customer receives an order from you they will be very happy.
-
-
-### 5.2 Packing specimens
-
-You may feel that you already know how to pack specimens but it never hurts to revisit your packing techniques to ensure that your customers will always be happy with you.
-
-#### 5.2.1 Packing butterflies
-
-1. Kill live butterflies
-
-2. Cut and fold A4 paper triangle
-
-3. Label specimen (name and location of specimen)
-   * e.g. O. goliath from Gumi, Watut, Morobe Province, Papua New Guinea
-   * (do not use abbreviations for provinces)
-
-4. Put a piece of folded toilet tissue around the specimen and place carefully into the paper triangle
-
-5. Dry the specimen
-
-6. Store the specimen in the appropriate storage cupboard
-
-7. On receipt of an order for the specimen double check to see if the specimen is A1
-
-8. If A1 replace the tissue paper with a fresh sheet
-
-9. If it is a rare specimen double wrap it
-
-
-#### 5.2.2 Packing beetles
-
-1. Kill the live beetle
-
-2. Make card strips and cut plastic sheet to size
-
-3. Place tissue paper on the card strip
-
-4. Place beetle onto the tissue strip and secure plastic sheet with staples
-   * e.g. eupholus spp. - pack singly (unless otherwise directed by customer)
-   *      R. straussi - pack in pairs
-   *      E. horridus – pack singly
-   
-5. Label the specimen
-   * e.g. E.clarki from Lumi, Torricelli Mountains, Sandaun Province, Papua New Guinea
-   * (do not use abbreviations for provinces)
-
-6. Dry the specimen 
-
-7. After 7 days check that the specimen is fully dried
-
-8. After drying store in the appropriate storage cupboard
-
-9. On receipt of an order for the specimen double check to see if the specimen is A1
-
-#### 5.2.3 Packing an order for a customer
-
-1. Check the specimens for their quality and then fumigate them
-
-2. Use a strong box for the packing of an order
-
-3. Place a layer of cotton wool into the box
-
-4. If the order is for butterflies place one single layer of butterflies onto the first layer of cotton wool then add another layer of cotton wool and another single layer of butterflies repeat this until the box is full
-
-5. If the order is for beetles place a single layer of beetles onto the cotton wool face up and then another layer of beetles face down so that the two layers fit snuggly. Then add another layer of cotton wool and another double layer of beetles until the box is full
-
-6. Never over pack the box by pushing specimens down to fit more in as this will only ruin them and upset your customers
-
-7. If you are packing a mixed order of beetles and butterflies into one box place the beetle layers into the box first followed by the butterfly layers
-
-8. Sprinkle a very small quantity of crushed moth balls or naphthalene flakes onto each layer of cotton wool that you place in the box
-
-9. Gently shake the packed box to make sure that none of the specimens are loose
-
-10. Seal the box with sticky tape
-
-11. Place this box into a larger box and surround it on all sides with shredded paper
-
-12. Stick an envelope containing both export and import permits to the outside of the larger box
-
-13. Dispatch the order with EMS
 
 
 
 ## 6. APPENDICES
 
 
-### 6.1 What is CITES?
+### 6.1 Documenting File Creation 
 
-CITES (the Convention on International Trade in Endangered Species of Wild Fauna and Flora) is an international agreement between governments. Its aim is to ensure that international trade in specimens of wild animals and plants does not threaten their survival.
+It's useful to record some information about how your file was created.
 
-Annually, international wildlife trade is estimated to be worth billions of dollars and to include hundreds of millions of plant and animal specimens. The trade is diverse, ranging from live animals and plants to a vast array of wildlife products derived from them, including food products, exotic leather goods, wooden musical instruments, timber, tourist curios and medicines. Levels of exploitation of some animal and plant species are high and the trade in them, together with other factors, such as habitat loss, is capable of heavily depleting their populations and even bringing some species close to extinction. Many wildlife species in trade are not endangered, but the existence of an agreement to ensure the sustainability of the trade is important in order to safeguard these resources for the future.
+  * File creation date: `r Sys.Date()`
+  * `r R.version.string`
+  * R version (short form): `r getRversion()`
+  * File version: 1.0
+  * Github: [source code](https://github.com/englianhu/customer-service-handbook)
+  * Additional session information
+  
+```{r echo=FALSE, results='asis'}
+session_info()$platform
+```
 
-Because the trade in wild animals and plants crosses borders between countries, the effort to regulate it requires international cooperation to safeguard certain species from overexploitation.
 
-CITES was conceived in the spirit of such cooperation. Today, it accords varying degrees of protection to more than 30,000 species of animals and plants, whether they are traded as live specimens, fur coats or dried herbs.
-
-CITES was drafted as a result of a resolution adopted in 1963 at a meeting of members of IUCN (The World Conservation Union). The text of the Convention was finally agreed at a meeting of representatives of 80 countries in Washington DC., United States of America, on 3 March 1973, and on 1 July 1975 CITES entered in force.
-
-CITES is an international agreement to which States (countries) adhere voluntarily. States that have agreed to be bound by the Convention ('joined' CITES) are known as Parties. Although CITES is legally binding on the Parties – in other words they have to implement the Convention – it does not take the place of national laws. Rather it provides a framework to be respected by each Party, which has to adopt its own domestic legislation to ensure that CITES is implemented at the national level.
-
-For many years CITES has been among the conservation agreements with the largest membership, with now 169 Parties.
-
-**How many species are listed in the CITES Appendices?**
-
-Around 25,000 plant species and 5,000 animal species are covered by the provisions of the
-Convention, in the following proportions:
-  1) Appendix I: about 600 animal species and 300 plant species;
-2) Appendix II: about 1,400 animal species and 25,000 plant species; and
-3) Appendix III: about 270 animal species and 30 plant species.
-How can I know whether I need a permit to import or export wildlife
-specimens?
-Import, export and re-export of any live animal or plant of a species listed in the CITES
-Appendices (or of any part or derivative of such animal or plant) requires a permit or
-certificate. 
-30
-How CITES works in Papua New Guinea
-The Department of Environment and Conservation is the CITES management authority for
-Papua New Guinea. This is the government department that anyone who wants to export
-CITES listed species from Papua New Guinea has to go to in order to get permits.
-CITES traded species exported from Papua New Guinea include crocodile skins, eaglewood,
-live reef fish and of course birdwing butterflies.
-1. IFTA fills out CITES application form and it is sent to DEC.
-2. DEC review the application and when approved it is stamped and signed by Wildlife
-Inspection Officer, the Deputy Secretary for Conservation (Dr. Guy Gowae), the
-Conservator of Fauna and Flora (Dr. Wari Iamo).
-3. Approved CITES permit is sent back to IFTA.
-4. Copy of permit made by IFTA and sent to country of import in order to receive import
-approval from customs.
-5. A copy of the import permit sent back to IFTA from importing country.
-6. Both the CITES export permit and copy of import permit are put into an envelope on the
-outside of the order before being sent to the customer via EMS. 
-
-## 6.2 References
+### 6.2 References
 
 1. [Socio-Economics of Sustainable Insect Farming in **Papua New Guinea** - Customer Service Training Manual](http://www.geog.cam.ac.uk/research/projects/insectfarming/StaffCapacityBuilding.pdf)
 
-2. 
+2. [PROFESSIONAL CUSTOMER SERVICE CASE STUDIES](http://rpubs.com/englianhu/customer-service-slideshow)
+
+3. A lot of skills and knowledge learned from [Scicom (MSC) Bhd](http://www.scicom-intl.com/)
+
+
