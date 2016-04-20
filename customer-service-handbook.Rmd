@@ -35,6 +35,7 @@ output:
   slidy_presentation:
     widescreen: false
     logo: figure/Scibrokes-TonyStark.jpg
+runtime: shiny
 ---
 
 
@@ -511,22 +512,49 @@ dfm <- data.frame(c('Providers','','','','','','','','','','','','','Organizatio
 
   I simply refer to [Case Study For Freshers (Level : Medium) – Call Center Optimization](http://www.analyticsvidhya.com/blog/2016/04/case-study-level-medium-call-center-optimization/#comment-109565) and make it interactable webpage instead of statical report. You are feel free to browse over a simple shinyapp below :
   
+<<<<<<< HEAD
 ```{r shinyapp, echo=FALSE, results='asis'}
+=======
+```{r read-data, echo=FALSE}
+>>>>>>> 673c5e482bf6aed1495e3921874844c1f57616b4
 ## http://www.analyticsvidhya.com/blog/2016/04/case-study-level-medium-call-center-optimization/#comment-109565
 suppressMessages(library('plyr'))
 suppressMessages(library('dplyr'))
 suppressMessages(library('magrittr'))
 suppressMessages(library('shiny'))
+<<<<<<< HEAD
+=======
+suppressMessages(library('shinyapps'))
+source('function/shinyapp.R')
+source('function/kmeans_cluster.R')
+>>>>>>> 673c5e482bf6aed1495e3921874844c1f57616b4
 
 lnk <- 'http://www.analyticsvidhya.com/wp-content/uploads/2016/04/Case_Level2.csv'
 
 if(!file.exists('data/Case_Level2.csv')){
   dir.create('data')
   download.file(lnk, destfile='data/Case_Level2.csv')
+<<<<<<< HEAD
 }
 
 dat <- read.csv('data/Case_Level2.csv') %>% tbl_df
 
+=======
+  }
+
+dat <- tryCatch({
+    suppressMessages(read.csv(lnk, stringsAsFactors = FALSE)) %>% tbl_df
+  }, error=function(e) {
+    suppressMessages(read.csv('data/Case_Level2.csv', stringsAsFactors = FALSE)) %>% tbl_df
+    })
+
+rm(lnk)
+```
+
+```{r shinyapp, echo = FALSE}
+#'@ kmeans_cluster(dat)
+runApp(shinyapp(dat), display.mode='showcase')
+>>>>>>> 673c5e482bf6aed1495e3921874844c1f57616b4
 ```
 
 

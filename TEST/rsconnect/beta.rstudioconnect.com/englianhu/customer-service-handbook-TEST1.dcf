@@ -1,0 +1,10 @@
+name: customer-service-handbook-TEST1
+account: englianhu
+server: beta.rstudioconnect.com
+appId: 804
+bundleId: 1447
+url: https://beta.rstudioconnect.com/englianhu/customer-service-handbook-TEST1/
+when: 1461001698.60171
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: app.R|data/Case_Level2.csv
