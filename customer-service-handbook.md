@@ -1,7 +1,7 @@
 PROFESSIONAL CUSTOMER SERVICE CASE STUDIES
 ========================================================
 author: Ryo, Eng Lian Hu
-date: 2015-10-19
+date: 2016-05-15
 transition: rotate
 transition-speed: slow
 css: ./theme/default.css
@@ -84,7 +84,7 @@ Certiftcate of Attended Scicom (MSC) Bhd Workshop
 ![scicom workshop](figure/scicom-CS-workshopx400.jpg)
 *****
 
-Author :[Ryo®, Eng Lian Hu](http:rpubs.com/englianhu/ryoeng); [source code](https://github.com/englianhu/customer-service-handbook)
+Author :[Ryo®, Eng Lian Hu](https://beta.rstudioconnect.com/englianhu/ryo-eng/); [source code](https://github.com/englianhu/customer-service-handbook)
 
 Certified Contact Centre Professionals
 ========================================================
