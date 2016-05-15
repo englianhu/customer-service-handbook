@@ -1,0 +1,10 @@
+name: TEST-shinyapp
+account: englianhu
+server: beta.rstudioconnect.com
+appId: 803
+bundleId: 1445
+url: https://beta.rstudioconnect.com/englianhu/TEST-shinyapp/
+when: 1461000497.2158
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: customer-service-handbook-rpubs.html|customer-service-handbook.html|customer-service-handbook.md|customer-service-handbook.Rmd|customer-service-handbook.Rpres|LICENSE|README.md|data/Case_Level2.csv|figure/banner_outsourcing.jpg|figure/cc-location.jpg|figure/fb-01.jpg|figure/fb-01x400.jpg|figure/fb-02.jpg|figure/fb-02x400.jpg|figure/fb-03.jpg|figure/fb-03x400.jpg|figure/fb-04.jpg|figure/fb-04x400.jpg|figure/fb-05.jpg|figure/fb-05x400.jpg|figure/fb-06.jpg|figure/fb-06x400.jpg|figure/fb-07.jpg|figure/fb-07x400.jpg|figure/fb-08.jpg|figure/fb-08x400.jpg|figure/fb-09.jpg|figure/fb-09x400.jpg|figure/fb-10.jpg|figure/fb-10x400.jpg|figure/fb-11.jpg|figure/fb-11x400.jpg|figure/fb-12.jpg|figure/fb-12x400.jpg|figure/fb-13.jpg|figure/fb-13x400.jpg|figure/fb-14.jpg|figure/fb-14x400.jpg|figure/fb-15.jpg|figure/fb-15x400.jpg|figure/fb-16.jpg|figure/fb-16x400.jpg|figure/fb-17.jpg|figure/fb-17x400.jpg|figure/fb-18.jpg|figure/fb-18x400.jpg|figure/fb-19.jpg|figure/fb-19x400.jpg|figure/me.JPG|figure/our-goal.jpg|figure/our-values.jpg|figure/Scibrokes-TonyStark.jpg|figure/Scibrokes-TonyStark.png|figure/Scibrokes.png|figure/scicom-cert.jpg|figure/scicom-certx400.jpg|figure/scicom-CS-workshop.jpg|figure/scicom-CS-workshopx400.jpg|figure/Thumbs.db|figure/tonystark.jpg|figure/TonyStark.png|function/kmeans_cluster.R|function/shinyapp.R

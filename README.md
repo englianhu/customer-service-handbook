@@ -46,4 +46,3 @@ This is a [handbook for customer service](https://beta.rstudioconnect.com/englia
   - [6.2 Speech and Blooper]
   - [6.3 References]
 
-
